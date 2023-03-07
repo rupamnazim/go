@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(const MyApp());
 
@@ -22,7 +23,9 @@ class MyApp extends StatelessWidget {
               child: Text(
                 'Let\'s go',
                 style: TextStyle(
-                    fontSize: 50, color: Color.fromARGB(255, 74, 255, 86)),
+                    fontSize: 50,
+                    color: Color.fromARGB(255, 74, 255, 86),
+                    backgroundColor: Colors.white),
               ),
             )));
   }
