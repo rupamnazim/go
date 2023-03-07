@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
             appBar: AppBar(
                 leading: const Icon(Icons.menu),
+                backgroundColor: Colors.red,
                 title: const Center(
                     child: Text('CoolApp',
                         style: TextStyle(
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 50,
                     color: Color.fromARGB(255, 74, 255, 86),
-                    backgroundColor: Colors.white),
+                    backgroundColor: Colors.red),
               ),
             )));
   }
