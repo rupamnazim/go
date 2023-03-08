@@ -20,19 +20,20 @@ class CoolApp extends StatelessWidget {
           backgroundColor: Colors.indigo,
         ),
 //Body starts from here...
+        // ignore: prefer_const_constructors
         body: const Center(
           child: Text(
             'Slide left to open drawer.',
             style: TextStyle(
                 fontSize: 30,
                 color: Color.fromARGB(255, 255, 255, 255),
-                backgroundColor: Colors.red),
+                backgroundColor: Colors.indigo),
           ),
         ),
 
 //drawer starts from here...
         drawer: Drawer(
-            backgroundColor: Colors.white60,
+            backgroundColor: Colors.white70,
             child: ListView(
 // ignore: prefer_const_literals_to_create_immutables
               children: [
